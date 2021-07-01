@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block head_title %}Todos app!{% endblock %}</title>
+</head>
+<body>
+<nav>
+    <a href="{% url 'list_todos'%}">LIst</a></a>
+    <a href="{% url 'create_todo'%}">Create</a></a>
+
+</nav>
+
+{% block content %}
+{% endblock %}
+</body>
+</html>
