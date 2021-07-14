@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'templates_advanced.pythons_app',
+    'templates_advanced.pythons_auth',
+    'templates_advanced.pythons_core',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +133,4 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
